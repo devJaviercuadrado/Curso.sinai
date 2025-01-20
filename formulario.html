@@ -13,19 +13,20 @@
     <style>
         .header {
             background-color: #0D92F4;
-            padding: 1em 0;
             color: white;
             text-align: center;
             padding: 1em 0;
             font-family: Arial, Helvetica, sans-serif;
-
-
+            display:flex;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
         }
 
         .columna {
             background: #bdddec;
             padding: 20px;
-            width: 25%;
+            width: 300px;
             margin: 20px;
             border-radius: 10px 10px 10px 10px;
         }
@@ -39,13 +40,8 @@
 
         .logo {
             width: 150px;
-            height: 120px;
-            border-radius: 100%;
-            float: left;
-            justify-content: center;
-            position: relative;
-            top: 5px;
-            left: 520px;
+            height: 150px;
+            border-radius: 999999999px;
 
         }
 
@@ -78,6 +74,7 @@
         body {
             background-color: #77CDFF;
             margin: 0;
+        
         }
 
         p {
@@ -100,9 +97,13 @@
 
         <body>
             <div class="header">
-                <img src="/img/470877757_611547214739630_2837182474350419308_n.jpg" alt="logo" class="logo">
-                <h1>Biografia de blessd</h1>
-                <p>Cantante y compositor colombiano</p>
+                <div class="logo-container">
+                    <img src="/img/470877757_611547214739630_2837182474350419308_n.jpg" alt="logo" class="logo">
+                </div>
+                <span>
+                    <h1>Biografia de blessd</h1>
+                    <p>Cantante y compositor colombiano</p>
+                </span>
             </div>
         </body>
 
